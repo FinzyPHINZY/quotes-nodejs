@@ -1,0 +1,129 @@
+::1 - - [23/Feb/2024:21:00:01 +0000] "GET / HTTP/1.1" 304 - "http://localhost:2121/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+::1 - - [23/Feb/2024:21:00:01 +0000] "GET /style.css HTTP/1.1" 304 - "http://localhost:2121/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+::1 - - [23/Feb/2024:21:00:01 +0000] "GET /main.js HTTP/1.1" 304 - "http://localhost:2121/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+::1 - GET / HTTP/1.1 500 1441 - 19.396 ms
+::1 - GET / HTTP/1.1 200 1749 - 351.842 ms
+::1 - GET /style.css HTTP/1.1 304 - - 4.262 ms
+::1 - GET /main.js HTTP/1.1 304 - - 2.033 ms
+::1 - GET / HTTP/1.1 304 - - 287.783 ms
+::1 - GET /style.css HTTP/1.1 304 - - 2.737 ms
+::1 - GET /main.js HTTP/1.1 304 - - 1.500 ms
+::1 - GET / HTTP/1.1 304 - - 243.024 ms
+::1 - GET /style.css HTTP/1.1 304 - - 1.675 ms
+::1 - GET /main.js HTTP/1.1 304 - - 0.660 ms
+GET / 500 1441 - 13.927 ms
+GET / 500 1441 - 4.462 ms
+GET / 500 1441 - 2.160 ms
+GET / 200 1749 - 253.835 ms
+GET /style.css 304 - - 5.784 ms
+GET /main.js 304 - - 1.100 ms
+GET / 500 1441 - 23.914 ms
+GET / 500 1441 - 4.642 ms
+GET / 200 1749 - 237.155 ms
+GET /style.css 304 - - 4.947 ms
+GET /main.js 200 1499 - 3.892 ms
+GET - [23/Feb/2024:21:10:39 +0000] / 304 - - 386.064 ms
+GET - [23/Feb/2024:21:10:39 +0000] /style.css 304 - - 4.330 ms
+GET - [23/Feb/2024:21:10:39 +0000] /main.js 304 - - 1.389 ms
+GET / 304 - - 313.103 ms - [23/Feb/2024:21:11:42 +0000]
+GET /style.css 304 - - 6.337 ms - [23/Feb/2024:21:11:42 +0000]
+GET /main.js 304 - - 1.563 ms - [23/Feb/2024:21:11:42 +0000]
+PUT /addOneLike 200 12 - 235.560 ms - [23/Feb/2024:21:11:57 +0000]
+GET / 304 - - 318.088 ms - [23/Feb/2024:21:11:57 +0000]
+GET /style.css 304 - - 2.884 ms - [23/Feb/2024:21:11:57 +0000]
+GET /main.js 304 - - 1.932 ms - [23/Feb/2024:21:11:57 +0000]
+GET / 304 - - 307.725 ms - [23/Feb/2024:21:12:01 +0000]
+GET /style.css 304 - - 1.708 ms - [23/Feb/2024:21:12:01 +0000]
+GET /main.js 304 - - 2.679 ms - [23/Feb/2024:21:12:01 +0000]
+GET / 304 - - 890.933 ms - [23/Feb/2024:21:13:14 +0000]
+GET /style.css 304 - - 7.070 ms - [23/Feb/2024:21:13:14 +0000]
+GET /main.js 200 1502 - 12.680 ms - [23/Feb/2024:21:13:14 +0000]
+GET /style.css 304 - - 1.024 ms - [23/Feb/2024:21:13:17 +0000]
+PUT /addOneLike 200 12 - 208.735 ms - [23/Feb/2024:21:13:22 +0000]
+GET / 200 1749 - 286.668 ms - [23/Feb/2024:21:15:16 +0000]
+GET /style.css 200 902 - 7.189 ms - [23/Feb/2024:21:15:16 +0000]
+GET /main.js 200 1539 - 4.646 ms - [23/Feb/2024:21:15:16 +0000]
+PUT /addOneLike 200 12 - 225.370 ms - [23/Feb/2024:21:15:25 +0000]
+GET / 200 1749 - 2212.356 ms - [23/Feb/2024:21:17:32 +0000]
+GET /style.css 200 902 - 6.048 ms - [23/Feb/2024:21:17:32 +0000]
+GET /main.js 200 1539 - 4.654 ms - [23/Feb/2024:21:17:32 +0000]
+PUT /addOneLike 200 12 - 354.139 ms - [23/Feb/2024:21:17:39 +0000]
+PUT /addOneLike 200 12 - 1429.591 ms - [23/Feb/2024:21:17:41 +0000]
+PUT /addOneLike 200 12 - 208.824 ms - [23/Feb/2024:21:17:44 +0000]
+PUT /addOneLike 200 12 - 330.533 ms - [23/Feb/2024:21:17:45 +0000]
+GET / 200 1749 - 234.861 ms - [23/Feb/2024:21:17:49 +0000]
+GET /style.css 200 902 - 4.161 ms - [23/Feb/2024:21:17:49 +0000]
+GET /main.js 200 1539 - 1.365 ms - [23/Feb/2024:21:17:49 +0000]
+GET / 200 1749 - 16004.396 ms - [23/Feb/2024:21:19:14 +0000]
+GET /style.css 200 902 - 7.232 ms - [23/Feb/2024:21:19:14 +0000]
+GET /main.js 200 1539 - 2.603 ms - [23/Feb/2024:21:19:14 +0000]
+DELETE /deleteQuote 200 15 - 684.738 ms - [23/Feb/2024:21:20:19 +0000]
+GET / 200 1749 - 215.454 ms - [23/Feb/2024:21:20:19 +0000]
+GET /style.css 200 902 - 3.645 ms - [23/Feb/2024:21:20:19 +0000]
+GET /main.js 200 1539 - 2.031 ms - [23/Feb/2024:21:20:19 +0000]
+GET / 200 1749 - 13602.847 ms - [23/Feb/2024:21:21:39 +0000]
+GET /style.css 200 902 - 4.835 ms - [23/Feb/2024:21:21:39 +0000]
+GET /main.js 200 1539 - 4.344 ms - [23/Feb/2024:21:21:39 +0000]
+[0mGET / [31m500[0m 19.060 ms - 1441[0m
+[0mGET / [32m200[0m 368.437 ms - 1749[0m
+[0mGET /main.js [36m304[0m 2.615 ms - -[0m
+[0mGET /style.css [36m304[0m 2.927 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 8.530 ms - 150[0m
+[0mPOST /quotes [36m302[0m 302.163 ms - 46[0m
+[0mGET / [32m200[0m 237.266 ms - 2056[0m
+[0mGET /style.css [36m304[0m 4.265 ms - -[0m
+[0mGET /main.js [36m304[0m 4.641 ms - -[0m
+[0mPOST /quotes [36m302[0m 829.598 ms - 46[0m
+[0mGET / [32m200[0m 307.800 ms - 2342[0m
+[0mGET /main.js [36m304[0m 4.925 ms - -[0m
+[0mGET /style.css [36m304[0m 4.169 ms - -[0m
+[0mGET / [36m304[0m 364.876 ms - -[0m
+[0mGET /style.css [36m304[0m 5.689 ms - -[0m
+[0mGET /main.js [36m304[0m 0.766 ms - -[0m
+[0mGET / [36m304[0m 411.674 ms - -[0m
+[0mGET /style.css [36m304[0m 4.303 ms - -[0m
+[0mGET /main.js [36m304[0m 0.802 ms - -[0m
+[0mGET / [36m304[0m 320.945 ms - -[0m
+[0mGET /style.css [36m304[0m 4.240 ms - -[0m
+[0mGET /main.js [36m304[0m 1.316 ms - -[0m
+[0mPOST /quotes [36m302[0m 304.227 ms - 46[0m
+[0mGET / [32m200[0m 357.874 ms - 2720[0m
+[0mGET /style.css [36m304[0m 4.368 ms - -[0m
+[0mGET /main.js [36m304[0m 2.082 ms - -[0m
+[0mGET /style.css [36m304[0m 12.988 ms - -[0m
+[0mPUT /addOneLike [32m200[0m 238.035 ms - 12[0m
+[0mGET / [32m200[0m 394.434 ms - 2720[0m
+[0mGET /style.css [32m200[0m 10.943 ms - 902[0m
+[0mGET /main.js [32m200[0m 12.701 ms - 1526[0m
+[0mPUT /addOneLike [32m200[0m 299.684 ms - 12[0m
+[0mPUT /addOneLike [32m200[0m 167.950 ms - 12[0m
+[0mGET / [32m200[0m 362.915 ms - 3210[0m
+[0mGET /style.css [32m200[0m 12.376 ms - 902[0m
+[0mGET /main.js [32m200[0m 13.906 ms - 1530[0m
+[0mPUT /addOneLike [32m200[0m 332.145 ms - 12[0m
+[0mPUT /addOneLike [32m200[0m 212.829 ms - 12[0m
+[0mGET / [32m200[0m 249.907 ms - 3700[0m
+[0mGET /style.css [32m200[0m 19.326 ms - 902[0m
+[0mGET /main.js [32m200[0m 14.578 ms - 1530[0m
+[0mDELETE /deleteQuote [31m500[0m 9.706 ms - 1442[0m
+[0mGET / [31m500[0m 19.594 ms - 1451[0m
+[0mGET / [32m200[0m 217.722 ms - 3700[0m
+[0mGET /style.css [32m200[0m 39.380 ms - 902[0m
+[0mGET /main.js [32m200[0m 26.923 ms - 1530[0m
+[0mDELETE /deleteQuote [32m200[0m 264.990 ms - 15[0m
+[0mGET / [32m200[0m 292.160 ms - 3700[0m
+[0mGET /style.css [32m200[0m 16.486 ms - 902[0m
+[0mGET /main.js [32m200[0m 11.241 ms - 1530[0m
+[0mDELETE /deleteQuote [31m500[0m 52.295 ms - 1365[0m
+[0mDELETE /deleteQuote [32m200[0m 268.546 ms - 15[0m
+[0mGET / [32m200[0m 211.005 ms - 3700[0m
+[0mGET /style.css [32m200[0m 23.002 ms - 902[0m
+[0mGET /main.js [32m200[0m 19.387 ms - 1530[0m
+[0mGET / [32m200[0m 223.283 ms - 3700[0m
+[0mGET /style.css [32m200[0m 18.617 ms - 902[0m
+[0mGET /main.js [32m200[0m 10.376 ms - 1530[0m
+[0mDELETE /deleteQuote [31m500[0m 57.299 ms - 1365[0m
+[0mDELETE /deleteQuote [32m200[0m 520.779 ms - 15[0m
+[0mGET / [32m200[0m 194.659 ms - 3700[0m
+[0mGET /style.css [32m200[0m 13.180 ms - 902[0m
+[0mGET /main.js [32m200[0m 11.200 ms - 1520[0m

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKWISE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <h1 class="logo">BOOKWISE</h1>
+          <nav>
+            <a
+              target="_blank"
+              href="https://finzyphinzy.github.io/Meet-Me-FinzyPHINZY/"
+              >PORTFOLIO</a
+            >
+            <a href="mailto:finzyphinzy@gmail.com">Email</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <form action="/quotes" method="post">
+        <input type="text" placeholder="Name" name="name" />
+        <input type="text" placeholder="Quote" name="quote" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <% quotes.forEach((quote,i) => { %>
+      <li class="quote">
+        <!--  -->
+        <span><%= quotes[i].name %></span>
+        -
+        <span><%= quotes[i].quote %></span>
+        <span><%= quotes[i].likes %></span>
+        <span class="fa fa-thumbs-up"></span>
+        <span class="fa-solid fa-trash"></span>
+      </li>
+      <% }) %>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
